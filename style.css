@@ -1,0 +1,79 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* background-color: gray; */
+
+
+}
+
+.minion{
+    
+    width: 600px;
+    height: 500px;
+    background: url(./minion.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+.eye{
+    position: relative;
+    width: 71px;
+    height: 71px;
+    
+    top: 120px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: inset 0 0 22px rgba(0,0,0,0.8);
+    display: inline-flex;
+    justify-content: center;
+    
+
+}
+.lefteye{
+    left: 224px;
+
+}
+
+
+.righteye{
+    left:238px ;
+}
+
+.eye::after{
+    content:'' ;
+    width: 25px;
+    height: 25px;
+    background-color: black ;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
